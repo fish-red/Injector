@@ -1,0 +1,11 @@
+
+
+// Injector patch starts
+
+#ifdef DEBUG
+#define INJECTION_ENABLED
+#define INJECTION_ENABLED2
+#import "__INCLUDE__"
+#endif
+
+// Injector patch ends

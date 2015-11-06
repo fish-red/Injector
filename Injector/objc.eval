@@ -1,0 +1,35 @@
+
+
+__ADDITIONS_TAG__
+
+#define INJECTION_ENABLED
+#import "__INTERFACE_HEADER__"
+
+#ifdef DEBUG
+
+@interface NSObject(Xprobe)
+    + (void)xlog:(NSString *)message;
+@end
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunused-function"
+static void XLog( NSString *format, ... ) {
+    va_list argp;
+    va_start(argp, format);
+    [NSClassFromString(@"Xprobe") xlog:[[NSString alloc] initWithFormat:format arguments:argp]];
+}
+
+static void xprintln( const char *msg ) {
+    XLog( @"Swift language used for Objective-C injection: %s", msg );
+}
+#pragma clang diagnostic pop
+
+@implementation __CLASS_NAME__(XprobeEval)
+
+- (void)onXprobeEval {
+    __CODE__;
+}
+
+@end
+
+#endif

@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB40C4CC1BCD6F2900F09779 /* BundleInjection.h in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DE01BCD66F8009F7C9E /* BundleInjection.h */; };
+		BB40C4CD1BCD6F2900F09779 /* BundleInterface.h in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DE11BCD66F8009F7C9E /* BundleInterface.h */; };
+		BB40C4CE1BCD6F2900F09779 /* BundleSweeper.h in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DE21BCD66F8009F7C9E /* BundleSweeper.h */; };
+		BB40C4CF1BCD6F2900F09779 /* IvarAccess.h in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DE41BCD66F8009F7C9E /* IvarAccess.h */; };
+		BB40C4D31BCD6F4600F09779 /* BundleInjection.h in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DE01BCD66F8009F7C9E /* BundleInjection.h */; };
+		BB40C4D41BCD6F4600F09779 /* BundleInterface.h in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DE11BCD66F8009F7C9E /* BundleInterface.h */; };
+		BB40C4D51BCD6F4600F09779 /* BundleSweeper.h in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DE21BCD66F8009F7C9E /* BundleSweeper.h */; };
+		BB40C4D61BCD6F4600F09779 /* IvarAccess.h in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DE41BCD66F8009F7C9E /* IvarAccess.h */; };
+		BB40C4E61BCD9E2F00F09779 /* InjectionLoader in Resources */ = {isa = PBXBuildFile; fileRef = BB40C4E31BCD9E2F00F09779 /* InjectionLoader */; };
+		BB40C4E71BCD9E2F00F09779 /* iOSBundleTemplate in Resources */ = {isa = PBXBuildFile; fileRef = BB40C4E41BCD9E2F00F09779 /* iOSBundleTemplate */; };
+		BB40C4E81BCD9E2F00F09779 /* OSXBundleTemplate in Resources */ = {isa = PBXBuildFile; fileRef = BB40C4E51BCD9E2F00F09779 /* OSXBundleTemplate */; };
+		BB40C4EC1BCD9E4F00F09779 /* InjectionLoader in Resources */ = {isa = PBXBuildFile; fileRef = BB40C4E31BCD9E2F00F09779 /* InjectionLoader */; };
+		BB40C4ED1BCD9E4F00F09779 /* iOSBundleTemplate in Resources */ = {isa = PBXBuildFile; fileRef = BB40C4E41BCD9E2F00F09779 /* iOSBundleTemplate */; };
+		BB40C4EE1BCD9E4F00F09779 /* OSXBundleTemplate in Resources */ = {isa = PBXBuildFile; fileRef = BB40C4E51BCD9E2F00F09779 /* OSXBundleTemplate */; };
+		BB40C4F11BCD9F5400F09779 /* InjectorPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BB40C4F01BCD9F5400F09779 /* InjectorPlugin */; };
+		BB40C4F21BCD9F6700F09779 /* InjectorPlugin in Resources */ = {isa = PBXBuildFile; fileRef = BB40C4F01BCD9F5400F09779 /* InjectorPlugin */; };
+		BB9BBC271BD25DE600BB46D3 /* InjectorPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9BBC251BD25DE600BB46D3 /* InjectorPlugin.h */; };
+		BB9BBC291BD25E6600BB46D3 /* InjectorPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9BBC261BD25DE600BB46D3 /* InjectorPlugin.m */; };
+		BB9BBC2B1BD25EA000BB46D3 /* InjectorPlugin.o in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9BBC2A1BD25EA000BB46D3 /* InjectorPlugin.o */; };
+		BBDC5DCE1BCD668A009F7C9E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC5DCA1BCD668A009F7C9E /* main.swift */; };
+		BBDC5DE71BCD66F8009F7C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC5DDF1BCD66F8009F7C9E /* AppDelegate.swift */; };
+		BBDC5DE81BCD66F8009F7C9E /* BundleInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = BBDC5DE01BCD66F8009F7C9E /* BundleInjection.h */; };
+		BBDC5DE91BCD66F8009F7C9E /* BundleInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = BBDC5DE11BCD66F8009F7C9E /* BundleInterface.h */; };
+		BBDC5DEA1BCD66F8009F7C9E /* BundleSweeper.h in Headers */ = {isa = PBXBuildFile; fileRef = BBDC5DE21BCD66F8009F7C9E /* BundleSweeper.h */; };
+		BBDC5DEB1BCD66F8009F7C9E /* ClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC5DE31BCD66F8009F7C9E /* ClientApp.swift */; };
+		BBDC5DEC1BCD66F8009F7C9E /* IvarAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = BBDC5DE41BCD66F8009F7C9E /* IvarAccess.h */; };
+		BBDC5DED1BCD66F8009F7C9E /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC5DE51BCD66F8009F7C9E /* Resources.swift */; };
+		BBDC5DEE1BCD66F8009F7C9E /* InjectorProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = BBDC5DE61BCD66F8009F7C9E /* InjectorProtocols.h */; };
+		BBDC5DFE1BCD672D009F7C9E /* console.html in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF01BCD672C009F7C9E /* console.html */; };
+		BBDC5DFF1BCD672D009F7C9E /* InjectionBuilding.tif in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF11BCD672C009F7C9E /* InjectionBuilding.tif */; };
+		BBDC5E001BCD672D009F7C9E /* InjectionConnected.tif in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF21BCD672C009F7C9E /* InjectionConnected.tif */; };
+		BBDC5E011BCD672D009F7C9E /* InjectionError.tif in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF31BCD672C009F7C9E /* InjectionError.tif */; };
+		BBDC5E021BCD672D009F7C9E /* InjectionIdle.tif in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF41BCD672C009F7C9E /* InjectionIdle.tif */; };
+		BBDC5E031BCD672D009F7C9E /* InjectionOK.tif in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF51BCD672C009F7C9E /* InjectionOK.tif */; };
+		BBDC5E041BCD672D009F7C9E /* InjectionStale.tif in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF61BCD672D009F7C9E /* InjectionStale.tif */; };
+		BBDC5E051BCD672D009F7C9E /* main.patch in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF71BCD672D009F7C9E /* main.patch */; };
+		BBDC5E061BCD672D009F7C9E /* objc.eval in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF81BCD672D009F7C9E /* objc.eval */; };
+		BBDC5E071BCD672D009F7C9E /* pch.patch in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF91BCD672D009F7C9E /* pch.patch */; };
+		BBDC5E081BCD672D009F7C9E /* swift.eval in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DFA1BCD672D009F7C9E /* swift.eval */; };
+		BBDC5E091BCD672D009F7C9E /* unknown.m_ in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DFB1BCD672D009F7C9E /* unknown.m_ */; };
+		BBDC5E0A1BCD672D009F7C9E /* unknown.sh in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DFC1BCD672D009F7C9E /* unknown.sh */; };
+		BBDC5E0B1BCD672D009F7C9E /* injector.launch.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DFD1BCD672D009F7C9E /* injector.launch.plist */; };
+		BBDC5E101BCD6758009F7C9E /* InjectionBundler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC5E0C1BCD6758009F7C9E /* InjectionBundler.swift */; };
+		BBDC5E111BCD6758009F7C9E /* InjectorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC5E0D1BCD6758009F7C9E /* InjectorEngine.swift */; };
+		BBDC5E121BCD6758009F7C9E /* XcodeProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC5E0E1BCD6758009F7C9E /* XcodeProject.swift */; };
+		BBDC5E131BCD6758009F7C9E /* YieldGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC5E0F1BCD6758009F7C9E /* YieldGenerator.swift */; };
+		BBDC5E151BCD6761009F7C9E /* InjectorPluginController.h in Headers */ = {isa = PBXBuildFile; fileRef = BBDC5E141BCD6761009F7C9E /* InjectorPluginController.h */; };
+		BBDC5E381BCD6A74009F7C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC5DDF1BCD66F8009F7C9E /* AppDelegate.swift */; };
+		BBDC5E391BCD6A74009F7C9E /* ClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC5DE31BCD66F8009F7C9E /* ClientApp.swift */; };
+		BBDC5E3A1BCD6A74009F7C9E /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC5DE51BCD66F8009F7C9E /* Resources.swift */; };
+		BBDC5E3B1BCD6A74009F7C9E /* InjectionBundler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC5E0C1BCD6758009F7C9E /* InjectionBundler.swift */; };
+		BBDC5E3C1BCD6A74009F7C9E /* InjectorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC5E0D1BCD6758009F7C9E /* InjectorEngine.swift */; };
+		BBDC5E3D1BCD6A74009F7C9E /* XcodeProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC5E0E1BCD6758009F7C9E /* XcodeProject.swift */; };
+		BBDC5E3E1BCD6A74009F7C9E /* YieldGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC5E0F1BCD6758009F7C9E /* YieldGenerator.swift */; };
+		BBDC5E411BCD6DCD009F7C9E /* Injector-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = BBDC5E401BCD6DCD009F7C9E /* Injector-Bridging-Header.h */; };
+		BBDC5E421BCD6E1F009F7C9E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC5DCA1BCD668A009F7C9E /* main.swift */; };
+		BBDC5E431BCD6E5E009F7C9E /* console.html in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF01BCD672C009F7C9E /* console.html */; };
+		BBDC5E441BCD6E5E009F7C9E /* InjectionBuilding.tif in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF11BCD672C009F7C9E /* InjectionBuilding.tif */; };
+		BBDC5E451BCD6E5E009F7C9E /* InjectionConnected.tif in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF21BCD672C009F7C9E /* InjectionConnected.tif */; };
+		BBDC5E461BCD6E5E009F7C9E /* InjectionError.tif in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF31BCD672C009F7C9E /* InjectionError.tif */; };
+		BBDC5E471BCD6E5E009F7C9E /* InjectionIdle.tif in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF41BCD672C009F7C9E /* InjectionIdle.tif */; };
+		BBDC5E481BCD6E5E009F7C9E /* InjectionOK.tif in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF51BCD672C009F7C9E /* InjectionOK.tif */; };
+		BBDC5E491BCD6E5E009F7C9E /* InjectionStale.tif in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF61BCD672D009F7C9E /* InjectionStale.tif */; };
+		BBDC5E4A1BCD6E5E009F7C9E /* main.patch in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF71BCD672D009F7C9E /* main.patch */; };
+		BBDC5E4B1BCD6E5E009F7C9E /* objc.eval in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF81BCD672D009F7C9E /* objc.eval */; };
+		BBDC5E4C1BCD6E5E009F7C9E /* pch.patch in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DF91BCD672D009F7C9E /* pch.patch */; };
+		BBDC5E4D1BCD6E5E009F7C9E /* swift.eval in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DFA1BCD672D009F7C9E /* swift.eval */; };
+		BBDC5E4E1BCD6E5E009F7C9E /* unknown.m_ in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DFB1BCD672D009F7C9E /* unknown.m_ */; };
+		BBDC5E4F1BCD6E5E009F7C9E /* unknown.sh in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DFC1BCD672D009F7C9E /* unknown.sh */; };
+		BBDC5E501BCD6E5E009F7C9E /* injector.launch.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5DFD1BCD672D009F7C9E /* injector.launch.plist */; };
+		BBDC5E531BCD6E85009F7C9E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5E511BCD6E85009F7C9E /* MainMenu.xib */; };
+		BBDC5E541BCD6E93009F7C9E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBDC5E511BCD6E85009F7C9E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBDC5DD71BCD66B2009F7C9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBDC5DD11BCD66B2009F7C9E /* SwiftRuby.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BB3F78911BACAB9B00435430;
+			remoteInfo = Framework;
+		};
+		BBDC5DD91BCD66B2009F7C9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBDC5DD11BCD66B2009F7C9E /* SwiftRuby.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BB45AF5A1BB0CC8A00428322;
+			remoteInfo = Binary;
+		};
+		BBDC5DDB1BCD66B2009F7C9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBDC5DD11BCD66B2009F7C9E /* SwiftRuby.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BBB3FE8E1BBBFDA5009E718C;
+			remoteInfo = Tests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB40C4E31BCD9E2F00F09779 /* InjectionLoader */ = {isa = PBXFileReference; lastKnownFileType = folder; path = InjectionLoader; sourceTree = "<group>"; };
+		BB40C4E41BCD9E2F00F09779 /* iOSBundleTemplate */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iOSBundleTemplate; sourceTree = "<group>"; };
+		BB40C4E51BCD9E2F00F09779 /* OSXBundleTemplate */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OSXBundleTemplate; sourceTree = "<group>"; };
+		BB40C4F01BCD9F5400F09779 /* InjectorPlugin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = InjectorPlugin; sourceTree = "<group>"; };
+		BB9BBC251BD25DE600BB46D3 /* InjectorPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InjectorPlugin.h; path = InjectorEngine/InjectorPlugin.h; sourceTree = "<group>"; };
+		BB9BBC261BD25DE600BB46D3 /* InjectorPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InjectorPlugin.m; path = InjectorEngine/InjectorPlugin.m; sourceTree = "<group>"; };
+		BB9BBC2A1BD25EA000BB46D3 /* InjectorPlugin.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = InjectorPlugin.o; path = InjectorEngine/InjectorPlugin.o; sourceTree = "<group>"; };
+		BBDC5DAF1BCD6655009F7C9E /* Injector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Injector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDC5DC91BCD668A009F7C9E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDC5DCA1BCD668A009F7C9E /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BBDC5DCB1BCD668A009F7C9E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BBDC5DD11BCD66B2009F7C9E /* SwiftRuby.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftRuby.xcodeproj; path = SwiftRuby/SwiftRuby.xcodeproj; sourceTree = "<group>"; };
+		BBDC5DDF1BCD66F8009F7C9E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Injector/AppDelegate.swift; sourceTree = "<group>"; };
+		BBDC5DE01BCD66F8009F7C9E /* BundleInjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BundleInjection.h; path = Injector/BundleInjection.h; sourceTree = "<group>"; };
+		BBDC5DE11BCD66F8009F7C9E /* BundleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BundleInterface.h; path = Injector/BundleInterface.h; sourceTree = "<group>"; };
+		BBDC5DE21BCD66F8009F7C9E /* BundleSweeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BundleSweeper.h; path = Injector/BundleSweeper.h; sourceTree = "<group>"; };
+		BBDC5DE31BCD66F8009F7C9E /* ClientApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClientApp.swift; path = Injector/ClientApp.swift; sourceTree = "<group>"; };
+		BBDC5DE41BCD66F8009F7C9E /* IvarAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IvarAccess.h; path = Injector/IvarAccess.h; sourceTree = "<group>"; };
+		BBDC5DE51BCD66F8009F7C9E /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Resources.swift; path = Injector/Resources.swift; sourceTree = "<group>"; };
+		BBDC5DE61BCD66F8009F7C9E /* InjectorProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InjectorProtocols.h; path = Injector/InjectorProtocols.h; sourceTree = "<group>"; };
+		BBDC5DF01BCD672C009F7C9E /* console.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = console.html; path = Injector/console.html; sourceTree = "<group>"; };
+		BBDC5DF11BCD672C009F7C9E /* InjectionBuilding.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = InjectionBuilding.tif; path = Injector/InjectionBuilding.tif; sourceTree = "<group>"; };
+		BBDC5DF21BCD672C009F7C9E /* InjectionConnected.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = InjectionConnected.tif; path = Injector/InjectionConnected.tif; sourceTree = "<group>"; };
+		BBDC5DF31BCD672C009F7C9E /* InjectionError.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = InjectionError.tif; path = Injector/InjectionError.tif; sourceTree = "<group>"; };
+		BBDC5DF41BCD672C009F7C9E /* InjectionIdle.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = InjectionIdle.tif; path = Injector/InjectionIdle.tif; sourceTree = "<group>"; };
+		BBDC5DF51BCD672C009F7C9E /* InjectionOK.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = InjectionOK.tif; path = Injector/InjectionOK.tif; sourceTree = "<group>"; };
+		BBDC5DF61BCD672D009F7C9E /* InjectionStale.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = InjectionStale.tif; path = Injector/InjectionStale.tif; sourceTree = "<group>"; };
+		BBDC5DF71BCD672D009F7C9E /* main.patch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.patch; path = Injector/main.patch; sourceTree = "<group>"; };
+		BBDC5DF81BCD672D009F7C9E /* objc.eval */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = objc.eval; path = Injector/objc.eval; sourceTree = "<group>"; };
+		BBDC5DF91BCD672D009F7C9E /* pch.patch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pch.patch; path = Injector/pch.patch; sourceTree = "<group>"; };
+		BBDC5DFA1BCD672D009F7C9E /* swift.eval */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = swift.eval; path = Injector/swift.eval; sourceTree = "<group>"; };
+		BBDC5DFB1BCD672D009F7C9E /* unknown.m_ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = unknown.m_; path = Injector/unknown.m_; sourceTree = "<group>"; };
+		BBDC5DFC1BCD672D009F7C9E /* unknown.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = unknown.sh; path = Injector/unknown.sh; sourceTree = "<group>"; };
+		BBDC5DFD1BCD672D009F7C9E /* injector.launch.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = injector.launch.plist; path = Injector/injector.launch.plist; sourceTree = "<group>"; };
+		BBDC5E0C1BCD6758009F7C9E /* InjectionBundler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InjectionBundler.swift; path = InjectorEngine/InjectionBundler.swift; sourceTree = "<group>"; };
+		BBDC5E0D1BCD6758009F7C9E /* InjectorEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InjectorEngine.swift; path = InjectorEngine/InjectorEngine.swift; sourceTree = "<group>"; };
+		BBDC5E0E1BCD6758009F7C9E /* XcodeProject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XcodeProject.swift; path = InjectorEngine/XcodeProject.swift; sourceTree = "<group>"; };
+		BBDC5E0F1BCD6758009F7C9E /* YieldGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YieldGenerator.swift; path = InjectorEngine/YieldGenerator.swift; sourceTree = "<group>"; };
+		BBDC5E141BCD6761009F7C9E /* InjectorPluginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InjectorPluginController.h; path = InjectorPlugin/InjectorPluginController.h; sourceTree = "<group>"; };
+		BBDC5E191BCD679A009F7C9E /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.map; path = InjectorEngine/module.map; sourceTree = "<group>"; };
+		BBDC5E2B1BCD6A16009F7C9E /* Injector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Injector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDC5E401BCD6DCD009F7C9E /* Injector-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Injector-Bridging-Header.h"; path = "Injector/Injector-Bridging-Header.h"; sourceTree = "<group>"; };
+		BBDC5E521BCD6E85009F7C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Injector/Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBDC5DAB1BCD6655009F7C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9BBC2B1BD25EA000BB46D3 /* InjectorPlugin.o in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDC5E281BCD6A16009F7C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBDC5DA51BCD6655009F7C9E = {
+			isa = PBXGroup;
+			children = (
+				BBDC5DC91BCD668A009F7C9E /* Info.plist */,
+				BBDC5DCA1BCD668A009F7C9E /* main.swift */,
+				BBDC5DCB1BCD668A009F7C9E /* README.md */,
+				BBDC5DD11BCD66B2009F7C9E /* SwiftRuby.xcodeproj */,
+				BBDC5DDD1BCD66B9009F7C9E /* Injector */,
+				BBDC5DDE1BCD66CB009F7C9E /* InjectorEngine */,
+				BB40C4F01BCD9F5400F09779 /* InjectorPlugin */,
+				BB40C4E31BCD9E2F00F09779 /* InjectionLoader */,
+				BB40C4E41BCD9E2F00F09779 /* iOSBundleTemplate */,
+				BB40C4E51BCD9E2F00F09779 /* OSXBundleTemplate */,
+				BBDC5DB01BCD6655009F7C9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBDC5DB01BCD6655009F7C9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBDC5DAF1BCD6655009F7C9E /* Injector.framework */,
+				BBDC5E2B1BCD6A16009F7C9E /* Injector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBDC5DD21BCD66B2009F7C9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBDC5DD81BCD66B2009F7C9E /* SwiftRuby.framework */,
+				BBDC5DDC1BCD66B2009F7C9E /* SwiftRubyTests.xctest */,
+				BBDC5DDA1BCD66B2009F7C9E /* SwiftRuby */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBDC5DDD1BCD66B9009F7C9E /* Injector */ = {
+			isa = PBXGroup;
+			children = (
+				BBDC5E511BCD6E85009F7C9E /* MainMenu.xib */,
+				BBDC5DDF1BCD66F8009F7C9E /* AppDelegate.swift */,
+				BBDC5DE51BCD66F8009F7C9E /* Resources.swift */,
+				BBDC5DE31BCD66F8009F7C9E /* ClientApp.swift */,
+				BBDC5DE01BCD66F8009F7C9E /* BundleInjection.h */,
+				BBDC5DE11BCD66F8009F7C9E /* BundleInterface.h */,
+				BBDC5DE21BCD66F8009F7C9E /* BundleSweeper.h */,
+				BBDC5DE41BCD66F8009F7C9E /* IvarAccess.h */,
+				BBDC5DE61BCD66F8009F7C9E /* InjectorProtocols.h */,
+				BBDC5DEF1BCD66FD009F7C9E /* Supporting Files */,
+			);
+			name = Injector;
+			sourceTree = "<group>";
+		};
+		BBDC5DDE1BCD66CB009F7C9E /* InjectorEngine */ = {
+			isa = PBXGroup;
+			children = (
+				BBDC5E0D1BCD6758009F7C9E /* InjectorEngine.swift */,
+				BBDC5E0E1BCD6758009F7C9E /* XcodeProject.swift */,
+				BBDC5E0C1BCD6758009F7C9E /* InjectionBundler.swift */,
+				BBDC5E0F1BCD6758009F7C9E /* YieldGenerator.swift */,
+				BBDC5E141BCD6761009F7C9E /* InjectorPluginController.h */,
+				BBDC5E161BCD6767009F7C9E /* Supporting Files */,
+			);
+			name = InjectorEngine;
+			sourceTree = "<group>";
+		};
+		BBDC5DEF1BCD66FD009F7C9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBDC5E401BCD6DCD009F7C9E /* Injector-Bridging-Header.h */,
+				BBDC5DF01BCD672C009F7C9E /* console.html */,
+				BBDC5DF11BCD672C009F7C9E /* InjectionBuilding.tif */,
+				BBDC5DF21BCD672C009F7C9E /* InjectionConnected.tif */,
+				BBDC5DF31BCD672C009F7C9E /* InjectionError.tif */,
+				BBDC5DF41BCD672C009F7C9E /* InjectionIdle.tif */,
+				BBDC5DF51BCD672C009F7C9E /* InjectionOK.tif */,
+				BBDC5DF61BCD672D009F7C9E /* InjectionStale.tif */,
+				BBDC5DF71BCD672D009F7C9E /* main.patch */,
+				BBDC5DF91BCD672D009F7C9E /* pch.patch */,
+				BBDC5DF81BCD672D009F7C9E /* objc.eval */,
+				BBDC5DFA1BCD672D009F7C9E /* swift.eval */,
+				BBDC5DFB1BCD672D009F7C9E /* unknown.m_ */,
+				BBDC5DFC1BCD672D009F7C9E /* unknown.sh */,
+				BBDC5DFD1BCD672D009F7C9E /* injector.launch.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBDC5E161BCD6767009F7C9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBDC5E191BCD679A009F7C9E /* module.map */,
+				BB9BBC251BD25DE600BB46D3 /* InjectorPlugin.h */,
+				BB9BBC261BD25DE600BB46D3 /* InjectorPlugin.m */,
+				BB9BBC2A1BD25EA000BB46D3 /* InjectorPlugin.o */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BBDC5DAC1BCD6655009F7C9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDC5DEA1BCD66F8009F7C9E /* BundleSweeper.h in Headers */,
+				BBDC5DEE1BCD66F8009F7C9E /* InjectorProtocols.h in Headers */,
+				BB9BBC271BD25DE600BB46D3 /* InjectorPlugin.h in Headers */,
+				BBDC5DE91BCD66F8009F7C9E /* BundleInterface.h in Headers */,
+				BBDC5E411BCD6DCD009F7C9E /* Injector-Bridging-Header.h in Headers */,
+				BBDC5DEC1BCD66F8009F7C9E /* IvarAccess.h in Headers */,
+				BBDC5DE81BCD66F8009F7C9E /* BundleInjection.h in Headers */,
+				BBDC5E151BCD6761009F7C9E /* InjectorPluginController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BBDC5DAE1BCD6655009F7C9E /* Injector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDC5DC31BCD6656009F7C9E /* Build configuration list for PBXNativeTarget "Injector" */;
+			buildPhases = (
+				BBDC5DAA1BCD6655009F7C9E /* Sources */,
+				BBDC5DAB1BCD6655009F7C9E /* Frameworks */,
+				BBDC5DAC1BCD6655009F7C9E /* Headers */,
+				BBDC5DAD1BCD6655009F7C9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Injector;
+			productName = Wysiwwg2;
+			productReference = BBDC5DAF1BCD6655009F7C9E /* Injector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BBDC5E2A1BCD6A16009F7C9E /* InjectorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDC5E351BCD6A16009F7C9E /* Build configuration list for PBXNativeTarget "InjectorApp" */;
+			buildPhases = (
+				BBDC5E271BCD6A16009F7C9E /* Sources */,
+				BBDC5E281BCD6A16009F7C9E /* Frameworks */,
+				BBDC5E291BCD6A16009F7C9E /* Resources */,
+				BB40C4D71BCD702900F09779 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InjectorApp;
+			productName = Injector;
+			productReference = BBDC5E2B1BCD6A16009F7C9E /* Injector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBDC5DA61BCD6655009F7C9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "John Holdsworth";
+				TargetAttributes = {
+					BBDC5DAE1BCD6655009F7C9E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					BBDC5E2A1BCD6A16009F7C9E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BBDC5DA91BCD6655009F7C9E /* Build configuration list for PBXProject "Injector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBDC5DA51BCD6655009F7C9E;
+			productRefGroup = BBDC5DB01BCD6655009F7C9E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BBDC5DD21BCD66B2009F7C9E /* Products */;
+					ProjectRef = BBDC5DD11BCD66B2009F7C9E /* SwiftRuby.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				BBDC5DAE1BCD6655009F7C9E /* Injector */,
+				BBDC5E2A1BCD6A16009F7C9E /* InjectorApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BBDC5DD81BCD66B2009F7C9E /* SwiftRuby.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftRuby.framework;
+			remoteRef = BBDC5DD71BCD66B2009F7C9E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBDC5DDA1BCD66B2009F7C9E /* SwiftRuby */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SwiftRuby;
+			remoteRef = BBDC5DD91BCD66B2009F7C9E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBDC5DDC1BCD66B2009F7C9E /* SwiftRubyTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftRubyTests.xctest;
+			remoteRef = BBDC5DDB1BCD66B2009F7C9E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBDC5DAD1BCD6655009F7C9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB40C4CC1BCD6F2900F09779 /* BundleInjection.h in Resources */,
+				BB40C4CD1BCD6F2900F09779 /* BundleInterface.h in Resources */,
+				BB40C4CE1BCD6F2900F09779 /* BundleSweeper.h in Resources */,
+				BB40C4CF1BCD6F2900F09779 /* IvarAccess.h in Resources */,
+				BBDC5E531BCD6E85009F7C9E /* MainMenu.xib in Resources */,
+				BBDC5DFE1BCD672D009F7C9E /* console.html in Resources */,
+				BBDC5E0B1BCD672D009F7C9E /* injector.launch.plist in Resources */,
+				BBDC5E041BCD672D009F7C9E /* InjectionStale.tif in Resources */,
+				BBDC5E031BCD672D009F7C9E /* InjectionOK.tif in Resources */,
+				BBDC5E001BCD672D009F7C9E /* InjectionConnected.tif in Resources */,
+				BBDC5DFF1BCD672D009F7C9E /* InjectionBuilding.tif in Resources */,
+				BBDC5E011BCD672D009F7C9E /* InjectionError.tif in Resources */,
+				BBDC5E021BCD672D009F7C9E /* InjectionIdle.tif in Resources */,
+				BBDC5E051BCD672D009F7C9E /* main.patch in Resources */,
+				BBDC5E071BCD672D009F7C9E /* pch.patch in Resources */,
+				BBDC5E091BCD672D009F7C9E /* unknown.m_ in Resources */,
+				BBDC5E0A1BCD672D009F7C9E /* unknown.sh in Resources */,
+				BBDC5E081BCD672D009F7C9E /* swift.eval in Resources */,
+				BBDC5E061BCD672D009F7C9E /* objc.eval in Resources */,
+				BB40C4F11BCD9F5400F09779 /* InjectorPlugin in Resources */,
+				BB40C4E61BCD9E2F00F09779 /* InjectionLoader in Resources */,
+				BB40C4E71BCD9E2F00F09779 /* iOSBundleTemplate in Resources */,
+				BB40C4E81BCD9E2F00F09779 /* OSXBundleTemplate in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDC5E291BCD6A16009F7C9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB40C4D31BCD6F4600F09779 /* BundleInjection.h in Resources */,
+				BB40C4D41BCD6F4600F09779 /* BundleInterface.h in Resources */,
+				BB40C4D51BCD6F4600F09779 /* BundleSweeper.h in Resources */,
+				BB40C4D61BCD6F4600F09779 /* IvarAccess.h in Resources */,
+				BBDC5E541BCD6E93009F7C9E /* MainMenu.xib in Resources */,
+				BBDC5E431BCD6E5E009F7C9E /* console.html in Resources */,
+				BBDC5E441BCD6E5E009F7C9E /* InjectionBuilding.tif in Resources */,
+				BBDC5E451BCD6E5E009F7C9E /* InjectionConnected.tif in Resources */,
+				BBDC5E461BCD6E5E009F7C9E /* InjectionError.tif in Resources */,
+				BBDC5E471BCD6E5E009F7C9E /* InjectionIdle.tif in Resources */,
+				BBDC5E481BCD6E5E009F7C9E /* InjectionOK.tif in Resources */,
+				BBDC5E491BCD6E5E009F7C9E /* InjectionStale.tif in Resources */,
+				BBDC5E4A1BCD6E5E009F7C9E /* main.patch in Resources */,
+				BBDC5E4C1BCD6E5E009F7C9E /* pch.patch in Resources */,
+				BBDC5E4B1BCD6E5E009F7C9E /* objc.eval in Resources */,
+				BBDC5E4D1BCD6E5E009F7C9E /* swift.eval in Resources */,
+				BBDC5E4E1BCD6E5E009F7C9E /* unknown.m_ in Resources */,
+				BBDC5E4F1BCD6E5E009F7C9E /* unknown.sh in Resources */,
+				BBDC5E501BCD6E5E009F7C9E /* injector.launch.plist in Resources */,
+				BB40C4F21BCD9F6700F09779 /* InjectorPlugin in Resources */,
+				BB40C4EC1BCD9E4F00F09779 /* InjectionLoader in Resources */,
+				BB40C4ED1BCD9E4F00F09779 /* iOSBundleTemplate in Resources */,
+				BB40C4EE1BCD9E4F00F09779 /* OSXBundleTemplate in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB40C4D71BCD702900F09779 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/bin/sh -x";
+			shellScript = "cp -f \"$OBJECT_FILE_DIR_normal/$CURRENT_ARCH/InjectorPlugin.o\" InjectorEngine";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBDC5DAA1BCD6655009F7C9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDC5DCE1BCD668A009F7C9E /* main.swift in Sources */,
+				BBDC5DE71BCD66F8009F7C9E /* AppDelegate.swift in Sources */,
+				BBDC5DED1BCD66F8009F7C9E /* Resources.swift in Sources */,
+				BBDC5DEB1BCD66F8009F7C9E /* ClientApp.swift in Sources */,
+				BBDC5E111BCD6758009F7C9E /* InjectorEngine.swift in Sources */,
+				BBDC5E121BCD6758009F7C9E /* XcodeProject.swift in Sources */,
+				BBDC5E101BCD6758009F7C9E /* InjectionBundler.swift in Sources */,
+				BBDC5E131BCD6758009F7C9E /* YieldGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDC5E271BCD6A16009F7C9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDC5E421BCD6E1F009F7C9E /* main.swift in Sources */,
+				BBDC5E381BCD6A74009F7C9E /* AppDelegate.swift in Sources */,
+				BBDC5E391BCD6A74009F7C9E /* ClientApp.swift in Sources */,
+				BBDC5E3A1BCD6A74009F7C9E /* Resources.swift in Sources */,
+				BBDC5E3B1BCD6A74009F7C9E /* InjectionBundler.swift in Sources */,
+				BBDC5E3C1BCD6A74009F7C9E /* InjectorEngine.swift in Sources */,
+				BBDC5E3D1BCD6A74009F7C9E /* XcodeProject.swift in Sources */,
+				BBDC5E3E1BCD6A74009F7C9E /* YieldGenerator.swift in Sources */,
+				BB9BBC291BD25E6600BB46D3 /* InjectorPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBDC5E511BCD6E85009F7C9E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBDC5E521BCD6E85009F7C9E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBDC5DC11BCD6656009F7C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DIAMOND_HOME = $HOME/Library/Diamond;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DIAMOND_HOME)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(DIAMOND_HOME)/Frameworks @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/InjectorEngine";
+				SYMROOT = "$(DIAMOND_HOME)/Build/$(PLATFORM_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BBDC5DC21BCD6656009F7C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DIAMOND_HOME = $HOME/Library/Diamond;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DIAMOND_HOME)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(DIAMOND_HOME)/Frameworks @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/InjectorEngine";
+				SYMROOT = "$(DIAMOND_HOME)/Build/$(PLATFORM_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BBDC5DC41BCD6656009F7C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnholdsworth.Injector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBDC5DC51BCD6656009F7C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnholdsworth.Injector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBDC5E361BCD6A16009F7C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnholdsworth.Injector;
+				PRODUCT_NAME = Injector;
+				SWIFT_OBJC_BRIDGING_HEADER = "Injector/Injector-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBDC5E371BCD6A16009F7C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnholdsworth.Injector;
+				PRODUCT_NAME = Injector;
+				SWIFT_OBJC_BRIDGING_HEADER = "Injector/Injector-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBDC5DA91BCD6655009F7C9E /* Build configuration list for PBXProject "Injector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDC5DC11BCD6656009F7C9E /* Debug */,
+				BBDC5DC21BCD6656009F7C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBDC5DC31BCD6656009F7C9E /* Build configuration list for PBXNativeTarget "Injector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDC5DC41BCD6656009F7C9E /* Debug */,
+				BBDC5DC51BCD6656009F7C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBDC5E351BCD6A16009F7C9E /* Build configuration list for PBXNativeTarget "InjectorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDC5E361BCD6A16009F7C9E /* Debug */,
+				BBDC5E371BCD6A16009F7C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBDC5DA61BCD6655009F7C9E /* Project object */;
+}

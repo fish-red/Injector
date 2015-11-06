@@ -1,0 +1,20 @@
+
+
+__ADDITIONS_TAG__
+
+extension __CLASS_NAME__ {
+
+    func xprintln<T>( str: T ) {
+        if let xprobe: AnyClass = NSClassFromString("Xprobe") {
+            dispatch_after( DISPATCH_TIME_NOW, dispatch_get_main_queue(), {
+                NSThread.detachNewThreadSelector(Selector("xlog:"), toTarget:xprobe, withObject:"\(str)" as NSString)
+            } )
+        }
+    }
+
+    @objc func onXprobeEval() {
+        __CODE__
+    }
+
+}
+

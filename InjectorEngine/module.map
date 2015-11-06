@@ -1,0 +1,4 @@
+module InjectorPlugin [system] {
+  header "InjectorPlugin.h"
+  export *
+}

@@ -1,0 +1,37 @@
+<html><body><header><style>
+
+body, table { Font: 10pt Arial; }
+
+</style><script>
+
+function $(id) {
+    return id ? document.getElementById(id) : $('console');
+}
+
+function logSet( html ) {
+    $().innerHTML = html;
+}
+
+var divID = 0
+
+function logAdd( entry ) {
+    var div = document.createElement("div");
+    div.innerHTML = entry+"<span id='i"+(++divID)+"'/>";
+    $().appendChild(div);
+    scrollTo(0,1000000);
+}
+
+function logUpdate( interval ) {
+    $("i"+divID).innerHTML = interval;
+}
+
+function showDetail(link) {
+    var style = link.parentElement.children[1].style;
+    var revealing = style.display == "none"
+    style.display = revealing ? "block" : "none";
+    link.innerHTML = (revealing ? "hide" : "show")+" detail";
+    return false;
+}
+
+</script></header><body>
+<div id='console'></div>

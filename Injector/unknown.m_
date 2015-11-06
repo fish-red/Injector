@@ -1,0 +1,13 @@
+#import <__HEADER__>
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wobjc-protocol-property-synthesis"
+#pragma clang diagnostic ignored "-Wincomplete-implementation"
+#pragma clang diagnostic ignored "-Wprotocol"
+@implementation __CLASS_NAME__
++ (Class)class {
+    return self;
+}
+@end
+#pragma clang diagnostic pop
+
