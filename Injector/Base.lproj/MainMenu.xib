@@ -1338,15 +1338,15 @@
                         <rect key="frame" x="527" y="55" width="22" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <animations/>
-                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="41p-8D-gka">
+                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" inset="2" id="41p-8D-gka">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                         <connections>
-                            <binding destination="EG9-Py-Kmz" name="value" keyPath="values.orderFrontOnInjection" id="6cT-st-6xR">
+                            <binding destination="EG9-Py-Kmz" name="value" keyPath="values.orderFrontOnInjection" id="Q39-v6-j75">
                                 <dictionary key="options">
                                     <integer key="NSNoSelectionPlaceholder" value="1"/>
-                                    <integer key="NSNullPlaceholder" value="1"/>
+                                    <integer key="NSNullPlaceholder" value="0"/>
                                 </dictionary>
                             </binding>
                         </connections>
