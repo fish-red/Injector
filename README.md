@@ -1,13 +1,12 @@
 
-# Injector, the Swift successor to injectionforxcode
+# Injector, Swift successor to injectionforxcode
 
-To use Download the [Diamond](https://github.com/johnno1962/Diamond) project
+To use, download the [Diamond](https://github.com/johnno1962/Diamond) project
 and build it to enable the `diamond` scripting language based on Swift.
 Then, run the `run_injector` script in the project directory. In other words
 paste the following into terminal:
 
     cd /tmp
-    rm -rf Diamond
     git clone https://github.com/johnno1962/Diamond
     cd Diamond && xcodebuild && ./run_injector
 
@@ -52,7 +51,7 @@ Injection in the AppCode version requires that you have built the project
 at some time in the past inside Xcode as it parses the build logs for
 compile commands.
 
-Both plugins support a File Watcher which if enabled will watch for
+Both plugins support a File Watcher which, if enabled will watch for
 changes to any source in a project on disk while the app is running.
 If this doesn't suit you there is a command line interface to prompt
 an injection:
@@ -61,7 +60,7 @@ an injection:
 
 This binary expects one of _patchProject_, _unpatchProject_ or _injectSources_
 then the path to the project or workspace of the app being injected
-then full path to the file(s) you want to inject.
+and the full path to the file(s) you want to inject.
 
 Injector is OpenSource but will likely not be "Free Software". The
 eventual pricing will what it always was for injectionforxcode i.e.
